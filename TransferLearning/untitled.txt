@@ -1,0 +1,36 @@
+TESTS
+
+pokemon_model_2
+ # CONV -> RELU -> POOL
+        x = Conv2D(64, (3, 3), padding="same")(inputs)
+        x = Activation("relu")(x)
+        x = MaxPooling2D(pool_size=(3, 3))(x)
+        x = Dropout(0.25)(x)
+        
+        x = Flatten()(inputs)
+        # add two fully connected layers and some dropout
+        x = Dense(256)(x)
+        x = Activation('relu')(x)
+        x = Dropout(0.5)(x)
+        x = Dense(1)(x)
+        x = Activation(finalAct, name="type1_classification")(x)
+        
+pokemon_model_3 
+
+Same as 2, but no splitting and no validation.
+
+pokemon_model_4 
+
+Labels or images were kinda wrong, but nothing changed.
+
+pokemon_model_5 
+
+Split data ICE POKEMONS.
+
+pokemon_model_6 
+
+FIRE POKEMONS, DATA SPLITTED
+
+pokemon_model_7 
+
+WATER POKEMONS, DATA SPLITTED
