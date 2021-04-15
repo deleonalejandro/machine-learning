@@ -34,3 +34,15 @@ FIRE POKEMONS, DATA SPLITTED
 pokemon_model_7 
 
 WATER POKEMONS, DATA SPLITTED
+
+pokemon_model_7 
+
+CATEGORICAL POKEMONS, DATA SPLITTED
+
+pokemon_model_9
+Much more convulutional layers, categorical
+CATEGORICAL POKEMONS, DATA SPLITTED
+
+pokemon_model_11
+categorical and 2 branches
+CATEGORICAL POKEMONS, DATA SPLITTED
